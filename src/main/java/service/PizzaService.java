@@ -48,7 +48,7 @@ public interface PizzaService {
      * Grupowanie pizzy po ilości składników pod warunkiem, że jest ich więcej niż 4
      * @return
      */
-    public TreeMap<Integer, List<Pizza>> groupByNumberOfIngredientsGreaterThan4();
+    public Map<Integer, List<Pizza>> groupByNumberOfIngredientsGreaterThan4();
 
     // Zwraca menu | nazwa pizzy | ostra lub łagodna | mięsna lub wege | cena | nazwa_składnika1, ..., nazwa_składnikaN |
     public String getMenu();
